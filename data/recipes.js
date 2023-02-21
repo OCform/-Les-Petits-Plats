@@ -1724,3 +1724,5 @@ const recipes = [
         "ustensils":["rouleau à patisserie","fouet"]
     }
 ]
+// Convert (js array) to (json object)
+let JsonObject = JSON.parse(JSON.stringify(recipes));
